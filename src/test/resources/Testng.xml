@@ -1,0 +1,10 @@
+<suite name="SampleTestSuite" >	 
+  <test name="FIRST Maven">
+      <parameter name="browserName" value="chrome"></parameter>
+     <parameter name="url" value="http://www.ebay.com/"></parameter>
+  	 <classes>
+	 	<class name="org.epam.test.CheckFlightsTest"/>
+  	 </classes>
+ </test>
+
+</suite>
